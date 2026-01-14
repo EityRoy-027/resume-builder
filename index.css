@@ -167,7 +167,7 @@ body{
     gap: 20px;
    
 }
-#inputemail,#inputphone,#inputlink,#inputlocation,.inputcompany,.inputstartdate,.inputenddate,#inputlocationcom,.inputlocation{
+#inputemail,#inputphone,#inputlink,#inputlocation,.inputcompany,.inputstartdate1,.inputenddate1,.inputstartdate2,.inputstartdate2#inputlocationcom,.inputlocation{
     width:100%;
     height:35px;
     border-radius: 5px;
@@ -294,7 +294,7 @@ body{
     font-size: 0.8rem;
     width:100%;
 }
-.description{
+#descriptionwork1,#descriptionwork2,#descriptionscl1,#descriptionscl2{
     margin-top: 20px;
     width:100%;
     
@@ -406,6 +406,9 @@ body{
 #proffessional h1{
     color: rgb(0, 89, 255);
     font-size: 1.2rem;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding-bottom: 10px;
+
  
 }
 #proff{
@@ -429,7 +432,9 @@ body{
 }
 .work1 h1{
     font-size: 1.2rem;
-    color:rgb(0, 89, 255); ;
+    color:rgb(0, 89, 255); 
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding-bottom: 10px;
 }
 .work1,.work2{
     display: flex;
@@ -442,18 +447,18 @@ body{
 .sp2{
     color: rgb(55, 55, 55);
 }
-.posttop{
+.posttopedu,.posttopjob2,.posttopjob1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.post{
+.postedu,.postjob2,.postjob1{
    
     font-size: 0.9rem;
     color: rgb(53, 52, 52);
     font-weight: bold;
 }
-.postdate{
+.postdateedu,.postdatejob2,.postdatejob1{
     font-size: 0.75rem;
     color: rgb(143, 141, 141);
 }
@@ -463,4 +468,20 @@ body{
 .bottom{
     font-size: 0.8rem;
     line-height: 1.4rem;
+}
+#skillss h3{
+    color: rgb(0, 85, 255);
+     border-bottom: 1px solid rgb(211, 210, 210);
+    padding-bottom: 10px;
+}
+.skilled{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    background-color: rgba(0, 55, 255, 0.194);
+    color: rgb(0, 21, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
 }
