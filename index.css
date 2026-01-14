@@ -167,7 +167,7 @@ body{
     gap: 20px;
    
 }
-#inputemail,#inputphone,#inputlink,#inputlocation,.inputcompany,.inputstartdate,.inputenddate,#inputlocationcom{
+#inputemail,#inputphone,#inputlink,#inputlocation,.inputcompany,.inputstartdate,.inputenddate,#inputlocationcom,.inputlocation{
     width:100%;
     height:35px;
     border-radius: 5px;
@@ -283,6 +283,7 @@ body{
     align-items: center;
     gap:20px;
     font-size: 0.8rem;
+    
 }
 
 .com,.pany,.date1,.date2,.job{
@@ -301,7 +302,7 @@ body{
     flex-direction: column;
     font-size: 0.8rem;
     background-color: white;
-    background-color: blueviolet;
+    
 }
 
 .experiencebut{
@@ -326,7 +327,7 @@ body{
     gap:20px;
 }
 #containerrightbox{
-    width: 90%;
+    width: 100%;
    height: auto;
     border-radius: 20px;
      display: flex;
@@ -338,20 +339,50 @@ body{
     border: 1px solid rgb(232, 231, 231);
 }
 #person{
+     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:80%;
-    height:200px;
+    gap: 15px;
+    
+    height:250px;
     padding-left:20px;
     padding-right:20px;
-    gap:10px;
+    gap:25px;
     background-color: aliceblue;
     border-radius: 20px;
     margin-top: 20px;
-    font-size: 0.7rem;
-    height:380px;
-    line-height: 1.2rem;
+    font-size: 0.8rem;
+  
+    line-height: 1.3rem;
+}
+#nam h1{
+    font-size: 2rem;
+    color: rgb(0, 89, 255);
+    margin-bottom: 25px;
+}
+#prof{
+    color: rgb(76, 75, 75);
+    font-size: 0.9rem;
+}
+#emailphone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.88rem;
+    color: rgb(106, 105, 105);
+}
+#locationlink{
+     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.78rem;
+    color: rgb(106, 105, 105);
+    gap: 70px;
 }
 #proffessional,#education{
     display: flex;
@@ -365,25 +396,40 @@ body{
     margin-top: 20px;
     font-size: 0.85rem;
     background-color: rgb(255, 255, 255);
-    height:380px;
-    line-height: 1.3rem;
+    height:300px;
+    line-height: 1.4rem;
     gap:35px;
+    margin-top: 20px;
+    text-align: justify;
     
 }
-#work{
+#proffessional h1{
+    color: rgb(0, 89, 255);
+    font-size: 1.2rem;
+ 
+}
+#proff{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+#work,#edu,#skillss{
      display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     width:80%;
-    padding-left:20px;
-    padding-right:20px;
-    gap: 55px;
+   
+    padding: 20px;
+    gap: 40px;
     border-radius: 20px;
     margin-top: 20px;
     font-size: 0.85rem;
     background-color: rgb(255, 255, 255);
-    height:700px;
+    height:auto;
     line-height: 1.3rem;
+}
+.work1 h1{
+    font-size: 1.2rem;
+    color:rgb(0, 89, 255); ;
 }
 .work1,.work2{
     display: flex;
@@ -393,19 +439,28 @@ body{
 .sp{
     color: rgb(0, 85, 255);
 }
+.sp2{
+    color: rgb(55, 55, 55);
+}
 .posttop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .post{
+   
+    font-size: 0.9rem;
+    color: rgb(53, 52, 52);
     font-weight: bold;
-    font-size: 1rem;
 }
 .postdate{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: rgb(143, 141, 141);
 }
 .work1 h1{
     margin-bottom: 35px;
+}
+.bottom{
+    font-size: 0.8rem;
+    line-height: 1.4rem;
 }
